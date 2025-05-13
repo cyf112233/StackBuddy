@@ -1,0 +1,17 @@
+# StackBuddy 配置文件
+# 最多可以堆叠的生物数量
+max_stack_size: 10
+# 是否启用日志输出
+enable_logging: true
+# 语言设置 (zh_CN, en_US)
+language: zh_CN
+# 是否启用排除坐骑类生物
+enable_excluded_mounts: true
+# 排除的坐骑类生物
+excluded_mounts:
+  - HORSE
+  - DONKEY
+  - MULE
+  - PIG
+  - STRIDER
+  - CAMEL 

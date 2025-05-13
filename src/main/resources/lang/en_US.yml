@@ -1,0 +1,7 @@
+# StackBuddy English Language File
+messages:
+  plugin_loaded: "StackBuddy loaded successfully"
+  entities_dispersed: "%player% dispersed all entities"
+  max_stack_reached: "Maximum stack size reached: %max%"
+  entity_stacked: "%player% carried entity: %entity%"
+  entity_excluded: "This entity cannot be picked up" 

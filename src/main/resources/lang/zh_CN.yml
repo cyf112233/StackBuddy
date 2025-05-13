@@ -1,0 +1,7 @@
+# StackBuddy 中文语言文件
+messages:
+  plugin_loaded: "StackBuddy 加载完毕"
+  entities_dispersed: "%player% 散开了所有生物"
+  max_stack_reached: "已达到最大堆叠数量: %max%"
+  entity_stacked: "%player% 带上了生物: %entity%"
+  entity_excluded: "这个生物不可以抓起" 
