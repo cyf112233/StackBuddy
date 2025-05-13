@@ -4,8 +4,14 @@ plugins {
     id ("com.github.johnrengelman.shadow") version "7.0.0"
 }
 
+val buildversion: String = if (project.hasProperty("version")) {
+    project.property("version") as String
+} else {
+    "unspecified"
+}
+
 group = "byd.cxkcxkckx.StackBuddy"
-version = "1.0.0"
+version = buildversion
 val targetJavaVersion = 8
 val shadowGroup = "top.mrxiaom.example.libs"
 
